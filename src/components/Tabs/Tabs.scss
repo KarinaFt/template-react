@@ -1,0 +1,40 @@
+@import '../../assets/styles/scss/slyles.scss';
+
+.tabs {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+
+  @include media-breakpoint-down($lg) {
+    display: none;
+  }
+
+  &__title {
+    padding: 0 10px;
+  }
+
+  &__titles-list {
+    margin-bottom: 38px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  &__titles-item {
+    @include norms(700);
+    color: $headingLight;
+
+    &__title {
+      padding: 0 10px;
+    }
+
+    &--active {
+      color: $primary;
+    }
+
+    &:hover {
+      cursor: pointer;
+    }
+  }
+}

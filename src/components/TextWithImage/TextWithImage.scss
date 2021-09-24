@@ -1,0 +1,30 @@
+@import '../../assets/styles/scss/slyles.scss';
+
+.text-with-image {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  background-color: $secondary;
+
+  &__box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  &__title {
+    @include norms(700);
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+    line-height: 1.18;
+  }
+
+  &__sub-title {
+    @include norms(400);
+    margin-bottom: 59px;
+    display: flex;
+    flex-direction: column;
+    line-height: 1.63;
+  }
+}

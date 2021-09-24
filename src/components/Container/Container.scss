@@ -1,0 +1,19 @@
+@import "../../assets/styles/scss/slyles.scss";
+
+.container {
+  padding: 0 15px;
+
+  @include media-breakpoint-up($xxl) {
+    max-width: 932px;
+    margin: 0 auto;
+  }
+}
+
+.container--small {
+  padding: 0 15px;
+  margin: 0 auto;
+
+  @include media-breakpoint-up($xxl) {
+    max-width: 1162px;
+  }
+}

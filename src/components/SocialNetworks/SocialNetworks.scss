@@ -1,0 +1,14 @@
+@import '../../assets/styles/scss/slyles.scss';
+
+.social-networks {
+  &__icon {
+    width: 21px;
+    height: 21px;
+    padding: 2px;
+    margin-right: 10px;
+
+    &:hover {
+      cursor: pointer;
+    }
+  }
+}

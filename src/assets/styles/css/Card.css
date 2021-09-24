@@ -1,0 +1,42 @@
+.card {
+  padding: 62px 73px 129px 65px;
+  border-radius: 3px;
+  box-shadow: 0 0 44px 10px #eaeaea;
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: space-between;
+  background-color: #ffffff; }
+  @media only screen and (max-width: 768px) {
+    .card {
+      flex-direction: column;
+      padding: 21px;
+      align-items: center; } }
+  .card__content-list {
+    max-width: 372px; }
+  .card__content-item {
+    font-display: swap;
+    font-family: 'TTNorms';
+    font-weight: 400;
+    src: url("https://fonts.hlxcdn.com/fonts/tt-norms/TTNorms-Regular.woff");
+    text-align: left; }
+  .card__content-title {
+    font-display: swap;
+    font-family: 'TTNorms';
+    font-weight: 700;
+    src: url("https://fonts.hlxcdn.com/fonts/tt-norms/TTNorms-Regular.woff");
+    margin-bottom: 23px; }
+  .card__content {
+    line-height: 1.63; }
+    @media only screen and (max-width: 768px) {
+      .card__content {
+        font-size: 16px; } }
+  .card__content p {
+    padding-bottom: 23px; }
+  .card__image {
+    max-width: 415px;
+    width: 100%;
+    min-width: 200px; }
+    @media only screen and (max-width: 768px) {
+      .card__image {
+        max-width: 300px; } }

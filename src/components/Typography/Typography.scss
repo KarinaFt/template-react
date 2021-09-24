@@ -1,0 +1,37 @@
+@import '../../assets/styles/scss/abstracts/variables.scss';
+
+.primary {
+  color: $primary;
+}
+
+.primary-dark {
+  color: $primaryDark;
+}
+
+.primary-light {
+  color: $primaryLight;
+}
+
+.heading {
+  color: $heading;
+}
+
+.sm-font-size {
+  font-size: $smFontSize;
+}
+
+.md-font-size {
+  font-size: $mdFontSize;
+}
+
+.lg-font-size {
+  font-size: $lgFontSize;
+}
+
+.xl-font-size {
+  font-size: $xlFontSize;
+}
+
+.xxl-font-size {
+  font-size: $xxlFontSize;
+}

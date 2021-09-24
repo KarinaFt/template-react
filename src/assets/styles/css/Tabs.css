@@ -1,0 +1,26 @@
+.tabs {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 100%; }
+  @media only screen and (max-width: 768px) {
+    .tabs {
+      display: none; } }
+  .tabs__titles-list {
+    margin-bottom: 38px;
+    max-width: 700px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between; }
+  .tabs__titles-item {
+    font-display: swap;
+    font-family: 'TTNorms';
+    font-weight: 700;
+    src: url("https://fonts.hlxcdn.com/fonts/tt-norms/TTNorms-Regular.woff");
+    color: #ababab; }
+    .tabs__titles-item--active {
+      color: #4b94c6; }
+    .tabs__titles-item:hover {
+      cursor: pointer; }
+  .tabs__title {
+    padding: 0 10px; }

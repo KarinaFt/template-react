@@ -1,0 +1,22 @@
+.announcement-bar {
+  margin-bottom: 35px;
+  background-color: #a0c5db;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  color: #ffffff;
+  text-align: center; }
+  .announcement-bar__policies {
+    font-display: swap;
+    font-family: 'TTNorms';
+    font-weight: 400;
+    src: url("https://fonts.hlxcdn.com/fonts/tt-norms/TTNorms-Regular.woff");
+    padding-right: 7px; }
+  .announcement-bar__learn-more {
+    border-bottom: solid 1px #ffffff;
+    font-display: swap;
+    font-family: 'TTNorms';
+    font-weight: 700;
+    src: url("https://fonts.hlxcdn.com/fonts/tt-norms/TTNorms-Regular.woff"); }
+  .announcement-bar__anchor {
+    text-decoration: none;
+    color: #ffffff; }

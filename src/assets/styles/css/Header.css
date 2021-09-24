@@ -1,0 +1,11 @@
+.header {
+  margin-bottom: 20px; }
+  .header__box {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    align-items: flex-end; }
+  .header__navigation-box {
+    margin-bottom: 35px;
+    display: flex;
+    justify-content: space-between; }

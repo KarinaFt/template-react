@@ -1,0 +1,22 @@
+@import '../../assets/styles/scss/slyles.scss';
+
+.announcement-bar {
+  margin-bottom: 35px;
+  background-color: $primary;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  color: $primaryLight;
+  text-align: center;
+
+  &__text {
+    @include norms(400);
+    padding-right: 7px;
+  }
+
+  &__anchor {
+    text-decoration: none;
+    color: $primaryLight;
+    border-bottom: solid 1px $primaryLight;
+    @include norms(500);
+  }
+}

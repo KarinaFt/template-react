@@ -1,0 +1,16 @@
+.navigation {
+  font-display: swap;
+  font-family: 'TTNorms';
+  font-weight: 400;
+  src: url("https://fonts.hlxcdn.com/fonts/tt-norms/TTNorms-Regular.woff"); }
+  .navigation__link {
+    margin-right: 20px;
+    margin-left: 20px;
+    text-decoration: none;
+    color: #232323;
+    transition: all 1s ease-out; }
+    .navigation__link:hover {
+      cursor: pointer;
+      transform: scale(1.8); }
+  .navigation__cart {
+    padding-left: 10px; }

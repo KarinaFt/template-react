@@ -1,0 +1,22 @@
+@import '../../assets/styles/scss/slyles.scss';
+
+.navigation {
+  @include media-breakpoint-down($lg) {
+    margin-bottom: 20px;
+  }
+
+  @include norms(400);
+
+  &__link {
+    margin-right: 20px;
+    margin-left: 20px;
+    text-decoration: none;
+    color: $primaryDark;
+    transition: all 1s ease-out;
+
+    &:hover {
+      cursor: pointer;
+      transform: scale(1.8);
+    }
+  }
+}

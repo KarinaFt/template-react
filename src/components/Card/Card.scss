@@ -1,0 +1,74 @@
+@import '../../assets/styles/scss/slyles.scss';
+
+.card {
+  width: 85%;
+
+  &__wrapper {
+    padding: 62px 45px 90px 45px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: $primaryLight;
+    border-radius: 3px;
+    box-shadow: 0 0 44px 10px #eaeaea;
+
+    @include media-breakpoint-down($lg) {
+      padding: 30px;
+      flex-direction: column;
+      align-items: center;
+    }
+  }
+
+  &__content-list {
+    width: 50%;
+
+    @include media-breakpoint-down($lg) {
+      width: 100%;
+    }
+  }
+
+  &__content-item {
+    @include norms(400);
+    text-align: left;
+  }
+
+  &__content-title {
+    @include norms(700);
+    margin-bottom: 23px;
+  }
+
+  &__content {
+    line-height: 1.63;
+
+    @include media-breakpoint-down($lg) {
+      font-size: $mdFontSize;
+    }
+  }
+
+  &__content p {
+    margin-bottom: 23px;
+  }
+
+  &__image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+  }
+
+  &__images-item {
+    position: relative;
+    padding-top: 80%;
+  }
+
+  &__images-list {
+    height: 100%;
+    width: 50%;
+
+    @include media-breakpoint-down($lg) {
+      width: 100%;
+    }
+  }
+}
